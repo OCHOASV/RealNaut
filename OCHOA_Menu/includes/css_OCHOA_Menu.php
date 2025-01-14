@@ -20,17 +20,18 @@ add_action( 'wp_head', function () {
 			--submenu-bg-color: #242729;
 		}
 		.header__menu {
-			width: 100%;
+			width: auto;
 			max-width: 100% !important;
 			padding: 10px 20px;
 			background-color: var(--menu-bg-color);
-			position: fixed;
+			/* For Global Menus */
+			/*position: fixed;*/
 			top: 0;
 			left: 0;
 			z-index: 1000;
 		}
 		.menu__container {
-			max-width: 1200px;
+			max-width: auto;
 			margin: 0 auto;
 			display: flex;
 			justify-content: space-between;
@@ -171,7 +172,7 @@ add_action( 'wp_head', function () {
 			.menu__link {
 				text-align: left;
 				padding: 10px 20px;
-				width: 100%;
+				width: auto;
 			}
 			.menu__sub-link {
 				padding: 10px 20px;
