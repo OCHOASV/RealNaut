@@ -1,6 +1,6 @@
 <?php
 /*
-	Plugin Name: OCHOA Menu
+	Plugin Name: OCHOA Menu for RealNaut
 	Plugin URI: https://www.ochoa.es/
 	Description: OCHOA Menus - RealNaut
 	Author: Carlos Ochoa <ochoa.ini@gmail.com>
