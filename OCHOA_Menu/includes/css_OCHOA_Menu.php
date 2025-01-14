@@ -101,18 +101,18 @@ add_action( 'wp_head', function () {
 		.menu__sub-item {
 			padding: 10px;
 			display: inline-flex;
-			width: 100%;
+			width: auto;
 		}
 		.menu__sub-link {
 			color: white;
 			text-decoration: none;
 		}
 		.menu__sub-item:hover {
-			background-color: var(--menu-hover-color);
-		}
-		.menu__sub-link:hover {
-			color: black;
-		}
+            background-color: var(--menu-hover-color);
+            .menu__sub-link{
+                color: black;
+            }
+        }
 		.menu__divider {
 			width: 1px;
 			height: 30px;
